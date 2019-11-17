@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#6DBCFC"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".CleanActivity">
+
+    <Button
+        android:id="@+id/btn_shower"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="การอาบน้ำแมว"/>
+
+    <Button
+        android:id="@+id/btn_smell"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="วิธีกำจัดกลิ่นปัสสาวะของน้องแมว"/>
+
+    <Button
+        android:id="@+id/btn_ear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="การทำความสะอาดหูของน้องแมว"/>
+
+    <Button
+        android:id="@+id/btn_mouth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ว่าด้วยเรื่องกลิ่นปากของน้องแมว"/>
+</LinearLayout>

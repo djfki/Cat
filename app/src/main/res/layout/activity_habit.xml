@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#99FFBE"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".HabitActivity">
+    <Button
+        android:id="@+id/btn_guess"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ทำไมน้องแมวถึงมีนิสัยแบบนี้กันนะ?"/>
+
+    <Button
+        android:id="@+id/btn_alarm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ทำไมน้องแมวถึงชอบปลุกเรากลางดึก"/>
+
+    <Button
+        android:id="@+id/btn_grass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ทำไมแมวถึงกินหญ้ากันนะ"/>
+
+</LinearLayout>

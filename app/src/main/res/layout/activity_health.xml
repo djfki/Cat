@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CE3A2C"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".HealthActivity">
+
+    <Button
+        android:id="@+id/btn_eat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="สัญญาณสุขภาพดีดูได้จากการกินของน้องแมว"/>
+
+    <Button
+        android:id="@+id/btn_behavior"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="พฤติกรรมแบบไหนกันนะ ที่บอกว่าน้องแมวสุขภาพดี"/>
+
+</LinearLayout>

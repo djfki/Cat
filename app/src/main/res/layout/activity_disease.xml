@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFED69"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".DiseaseActivity">
+
+    <Button
+        android:id="@+id/btn_discover"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="โรคที่พบได้ในตัวลูกแมว"/>
+
+    <Button
+        android:id="@+id/btn_sick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ดูอย่าไรให้รู้ว่าน้องแมวป่วย"/>
+
+    <Button
+        android:id="@+id/btn_cold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="โรคหวัดแมว"/>
+
+    <Button
+        android:id="@+id/btn_pooch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="โรคพิษสุนัขบ้า ที่แมวก็สามารถเป็นได้"/>
+
+    <Button
+        android:id="@+id/btn_eye"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ปัญหาเรื่องตาของน้องแมว"/>
+
+</LinearLayout>

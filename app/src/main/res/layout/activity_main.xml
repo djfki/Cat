@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ba"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/btn_food"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_margin="3dp"
+        android:background="#F2BAFC"
+        android:text="อาหารที่เหมาะกับน้องแมว" />
+
+    <Button
+        android:id="@+id/btn_health"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_margin="3dp"
+        android:background="#CE3A2C"
+        android:text="น้องแมวกับสุขภาพที่ดี" />
+
+    <Button
+        android:id="@+id/btn_clean"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_margin="3dp"
+        android:background="#6DBCFC"
+        android:text="มาดูแลรักษาความสะอาดให้น้องแมวของเรากันเถอะ" />
+
+    <Button
+        android:id="@+id/btn_habit"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_margin="3dp"
+        android:background="#99FFBE"
+        android:text="นิสัยแปลกๆ กับพฤติกรรมที่เกิดขึ้นของน้องเแมว" />
+
+    <Button
+        android:id="@+id/btn_disease"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_margin="3dp"
+        android:background="#FFED69"
+        android:text="โรคที่พบได้ในตัวน้องแมว" />
+
+    <Button
+        android:id="@+id/btn_age"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#C0EB7F"
+        android:text="วิธีดูช่วงวัยของน้องแมว" />
+
+</LinearLayout>
